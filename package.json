@@ -1,0 +1,16 @@
+{
+  "name": "aosaa-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "browserify index.js > assets/bundle.js"
+  },
+  "dependencies": {
+    "aos-any-animation": "git+https://github.com/Delpa/aos-any-animation.git",
+    "browserify": "^13.0.1",
+    "trianglify": "^0.4.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

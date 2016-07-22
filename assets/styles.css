@@ -1,0 +1,41 @@
+body {
+  font-family: Helvetica,Tahoma;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.all {
+  width: 1000px;
+  max-width: 98%;
+  margin: 10vh auto 0 auto;
+  overflow: hidden;
+}
+
+.item {
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+  height: 300px;
+  padding: 20px;
+}
+
+.item__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(29, 164, 226, 0);
+  line-height: 260px;
+  text-align: center;
+  color: #777;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .item {
+    width: 50%;
+  }
+}
