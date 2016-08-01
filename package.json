@@ -7,9 +7,8 @@
     "build": "browserify index.js > assets/bundle.js"
   },
   "dependencies": {
-    "aos-any-animation": "git+https://github.com/Delpa/aos-any-animation.git",
-    "browserify": "^13.0.1",
-    "trianglify": "^0.4.0"
+    "aos-any-animation": "github:delpa/aos-any-animation",
+    "browserify": "^13.0.1"
   },
   "author": "",
   "license": "ISC"
